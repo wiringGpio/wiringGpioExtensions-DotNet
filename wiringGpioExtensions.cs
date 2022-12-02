@@ -270,7 +270,7 @@ namespace wiringGpioExtensions
 
         //  PCA9685
         [DllImport(LibName, EntryPoint = "Pca9685Setup")]
-        public static extern int Pca9685Setup(int pinBase, int i2cAddress, float freq);
+        public static extern int Pca9685Setup(int bus, int pinBase, int i2cAddress, float freq);
         //
         [DllImport(LibName, EntryPoint = "Pca9685PWMReset")]
         public static extern void Pca9685PWMReset(int fd);
