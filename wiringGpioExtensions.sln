@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wiringGpioExtensions", "wiringGpioExtensions.csproj", "{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugJet|Any CPU = DebugJet|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseJet|Any CPU = ReleaseJet|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}.DebugJet|Any CPU.ActiveCfg = DebugJet|Any CPU
+		{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}.DebugJet|Any CPU.Build.0 = DebugJet|Any CPU
+		{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}.ReleaseJet|Any CPU.ActiveCfg = ReleaseJet|Any CPU
+		{2A25A8F8-348E-4825-9B42-7D8A5EDB5128}.ReleaseJet|Any CPU.Build.0 = ReleaseJet|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42E47104-85D9-4C69-B4F9-E4555C9FB2B3}
+	EndGlobalSection
+EndGlobal
