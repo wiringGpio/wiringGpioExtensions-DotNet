@@ -155,11 +155,17 @@ namespace wiringGpioExtensions
         [DllImport(LibName, EntryPoint = "PwmSetFrequency")]
         public static extern void PwmSetFrequency(int pin, float frequency);
 
+        [DllImport(LibName, EntryPoint = "PwmGetFrequency")]
+        public static extern float PwmGetFrequency(int pin);
+
         [DllImport(LibName, EntryPoint = "PwmSetRange")]
         public static extern void PwmSetRange(int range);
 
         [DllImport(LibName, EntryPoint = "PwmGetRange")]
         public static extern int PwmGetRange(int pin);
+
+        [DllImport(LibName, EntryPoint = "PwmIsHardwarePwmPin")]
+        public static extern int PwmIsHardwarePwmPin(int pin);
     }
 
 
